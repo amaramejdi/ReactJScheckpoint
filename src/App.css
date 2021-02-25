@@ -1,0 +1,33 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+h1{
+  color: rgb(37, 150, 241);
+  text-align: center;
+}
+
+Form{
+  margin-right: 400px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+Button{
+  text-align: center;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
